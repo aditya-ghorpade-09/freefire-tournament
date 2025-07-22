@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Free Fire Tournament</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='1.jpg') }}");
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Free Fire Solo Tournament</h2>
+        <p>📍 College-only event</p>
+        <p>🎯 Entry Fee: ₹20</p>
+        <p>🏆 Prize Pool:</p>
+        <ul>
+            <li>1st Prize – ₹300</li>
+            <li>2nd Prize – ₹200</li>
+            <li>3rd Prize – ₹100</li>
+        </ul>
+        <p>📝 Rules & Instructions:</p>
+        <ul>
+            <li>Only for our college students</li>
+            <li>Solo mode only</li>
+            <li>Submit correct Free Fire ID screenshot</li>
+            <li>Provide payment screenshot after scanning QR</li>
+            <li><b>If enough participants don't join, prize pool may change</b></li>
+        </ul>
+        <a class="btn" href="/register">I Agree – Go for Registration</a>
+    </div>
+</body>
+</html>
