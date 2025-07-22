@@ -1,8 +1,20 @@
 from flask import Flask, render_template, request, redirect
-import csv
 import os
+import datetime
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
 app = Flask(__name__)
+
+# Setup Google Sheets connection
+scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+creds = ServiceAccountCredentials.from_json_keyfile_name("tournament-website-466716-62b67624d91e.json", scope)
+client = gspread.authorize(creds)
+
+# Open your sheet
+sheet = client.open("Free Fire Tournament Registrations").sheet1
+
+# File upload folder
 UPLOAD_FOLDER = 'static/uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -27,9 +39,9 @@ def register():
         ffid_file.save(ffid_path)
         payment_file.save(payment_path)
 
-        with open('players.csv', 'a', newline='') as f:
-            writer = csv.writer(f)
-            writer.writerow([name, branch, year, ffid_file.filename, payment_file.filename])
+        # Add row to Google Sheet
+        timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        sheet.append_row([name, branch, year, ffid_file.filename, payment_file.filename, timestamp])
 
         return redirect('/success')
     return render_template('register.html')
