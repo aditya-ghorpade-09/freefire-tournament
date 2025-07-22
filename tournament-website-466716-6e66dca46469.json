@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "tournament-website-466716",
+  "private_key_id": "6e66dca464691715aa0482a251f1660f24e3fa73",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHQVpysAAxlv9I\n+4M4Zr1rISPWEOvMbeo3qrnUsqQAFChAh/HICRcpD1VF0y1GNQsSs/77kRPbnYLu\nRhilaH7p+6L0UXirli33cb0Cda6/g6VLHC8TyQ7DBavrFJZuBj67nCYTDVsrIX60\nmQmTbWFgRHFMp5Q5YVXSPGc+nf94fBqLcEXCdQ6AHihS8W0i240oGf2UXPHVBuM4\nSbWdPbGFo22gY38WIjqKpcZlBzEHEUuTCxSG52xfyxKSLmDk/cB4OU3Zs87pcIa6\nD6cr7PSGsLeq7X0aNeUEWB8EXmrfLrZWb4pTYsJCXcH8Y9V7fw8HEF1PbA8TwWav\nbSah0aCJAgMBAAECggEAAufbCC7fnoQtkRyE2CYsZzhpSmpTq/b4NPYHBiO8RJmG\npulB71Pi8Uj3/6qMlO26AtHv5cPX9/+y0fjLoXbghJbpiY9PbON7ObTAMpMxgw60\nstTp2AD6YixDdWxG5NAaawKOuL/85z2SmH2JAEFr4Ps33UFY20zbcz3zrKa3G+RJ\nzOVdTUYeRp9x5DrWX1LJIheM29I9FsG+Vboxk9adOvkvw/saTCStq3aucVcIXw/Q\nEc40TYePlDH93mSpruVgw1LUZvO/YkM2F7DCcPy3kLLIojilUn6ajEzdnH1SCMXx\n26ICeo3r5PEu0Egf0OjXdlGiWT75RyLqyuFZM5KtYQKBgQD4EK0l+DG8W4wRPFGV\n735SYgayVonJz8Vusafr6y2vuAYYifICG/bPVnhE0x6BfjRX/qttzuZLT6gWqND/\naRPTQF8DuIc6qEY4cj1gC5nsU5Uzts4Vy7OfUliANllg7ZOrqJk/mz52L3Yw55W9\n0NqQ5+b6eXXZZT+ccbKv3bNb6QKBgQDNoP04VF5Le2wa/hkfSolnw1YgyTX9IUf+\nSGmzRpNJZmAM3VWRIpQ0JzcNMxdzEo0/wViaGZlqE6IrO0oNQiwz5xP3Cd0C+BGU\nDU91NgBQn611BNKjPLc7IRW1lvVZ67fecxOMDMH+XOGgpjGcfBHwOOrzgNytlp1m\nKKnNDPFboQKBgCEeqN9+6bUKTAMpGIN6PFVnfRlmcHMfaG7FDXR0K99gJIA2OreJ\nYESCeQBHZ7VGUlrFR8Ibc6fudLTByVWwg9MarxTiGDv+p5F1vzgJlH13E16aM525\nWrwU1HgZyYklbyfmFL/nTEmfQJp68QUs02GxdKdQfCmQWRPcIk1UvlOxAoGBALo9\n29uPHrDDItD34A0lV3pxw6qCU7Hm2OwI7iOAAprybIB6X6vKY+0wr333DoAdB239\nUqCQGxGmorUBSDrl+l8wJjcT6edsg49S1urUdEiRt2tLaPSMY3DcsGr+RU6iXrDO\nDaBFVddqjLkSjdCr1xt6keLmjflzdzA2GEUuOdTBAoGAPYTwbkzhMHxL3sRtnURh\nI8f1q1sPiBwP2kGwtLCS5+fiu4tkkXDApCVUWhXFvmwIaV/sKtp+NPqDBB74Kv75\nmjVaEFjBRO2v+zcTWJlP1dedMJzrPBTUxWytFXulZuqmDyk8WWL/PNSp7CTcqgvM\na8FU2p8r57KVha1YZfHJCHg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "registration-sheet-bot@tournament-website-466716.iam.gserviceaccount.com",
+  "client_id": "109475974297747681154",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/registration-sheet-bot%40tournament-website-466716.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
